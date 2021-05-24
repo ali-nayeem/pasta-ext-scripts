@@ -1,0 +1,11 @@
+.DS_Store
+*.pyc
+output/
+bin/
+config*
+eTree*
+tTree*
+taxa*
+*.swp
+#data/
+.vscode/
