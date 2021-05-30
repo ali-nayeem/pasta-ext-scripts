@@ -1,0 +1,120 @@
+[clustalw2]
+args = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/clustalw2
+
+[commandline]
+aligned = False
+auto = False
+datatype = protein
+input = /home/user/MyProjects/MSA/example/bb3_release/RV11/BB11005.tfa
+job = BB11005
+keepalignmenttemps = False
+keeptemp = False
+multilocus = False
+raxml_search_after = False
+two_phase = False
+untrusted = False
+w_gap = -1.0
+w_ml = -1.0
+w_simg = -1.0
+w_simng = -1.0
+w_sp = -1.0
+
+[contralign]
+args = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/contralign
+
+[fakealigner]
+path = 
+
+[faketree]
+path = 
+
+[fasttree]
+args = 
+model = -wag -gamma -fastest
+options = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/fasttree
+
+[ginsi]
+args = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/ginsi
+
+[hmmeralign]
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/hmmeralign
+
+[homologs]
+args = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/homologs
+
+[mafft]
+args = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/mafft
+
+[muscle]
+args = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/muscle
+
+[opal]
+args = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/opal.jar
+
+[padaligner]
+path = 
+
+[prank]
+args = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/prank
+
+[probalign]
+args = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/probalign
+
+[probcons]
+args = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/probcons
+
+[randtree]
+path = 
+
+[raxml]
+args = 
+model = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/raxml
+
+[sate]
+after_blind_iter_term_limit = -1
+after_blind_iter_without_imp_limit = -1
+after_blind_time_term_limit = -1.0
+after_blind_time_without_imp_limit = -1.0
+aligner = mafft
+blind_after_iter_without_imp = -1
+blind_after_time_without_imp = -1.0
+blind_after_total_iter = 0
+blind_after_total_time = -1.0
+blind_mode_is_final = True
+break_strategy = mincluster
+build_mst = False
+iter_limit = 4
+iter_without_imp_limit = -1
+mask_gappy_sites = 0.0
+max_mem_mb = 1024
+max_subproblem_frac = 0.5
+max_subproblem_size = 7
+max_subtree_diameter = 2.5
+merger = opal
+min_subproblem_size = 0
+move_to_blind_on_worse_score = True
+num_cpus = 16
+output_directory = 5obj-15iter/base-output
+return_final_tree_and_alignment = True
+start_tree_search_from_current = True
+time_limit = -1.0
+time_without_imp_limit = -1.0
+tree_estimator = fasttree
+treeshrink_filter = False
+
+[treeshrink]
+args = 
+path = /home/user/MyProjects/pasta-exp/pasta-extension/bin/treeshrink
+

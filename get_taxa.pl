@@ -7,8 +7,8 @@
 #use lib "/u/bayzid/Research/simulation_study/tools/bioPerl-1.5.1-rc3/";  # eta korte hobe export PERL5LIB=/u/bayzid/Research/simulation_study/tools/bioperl-1.5.1-rc3/
 
 #use lib "/u/bayzid/Research/simulation_study/tools/BioPerl-1.5.9._2/";
-use lib "/Users/ali_nayeem/Lib/BioPerl-1.6.901/";
-use lib "/Users/ali_nayeem/Lib/BioPerl-1.6.901/Bio"; #BioPerl-1.6.901
+use lib "/home/user/MyProjects/lib/BioPerl-1.6.901/";
+use lib "/home/user/MyProjects/lib/BioPerl-1.6.901/Bio"; #BioPerl-1.6.901
 # use lib "/home/ali_nayeem/Lib/BioPerl-1.6.901/Bio/TreeIO.pm";
 
 use Bio::TreeIO;
@@ -59,11 +59,11 @@ my @uniq_taxa = uniq(@taxa);
 open(OUT, ">", $output) or die "can't open $output: $!";
 my $mappingname = "S";
 my $start = 1;
- foreach my $taxon(@uniq_taxa)
-	{
-		#print OUT "$taxon\n";
-		print OUT "$taxon $mappingname$start\n";  # this is for mpest
-		$start = $start +1;
-	}
+foreach my $taxon(@uniq_taxa)
+{
+	#print OUT "$taxon\n";
+	print OUT "$taxon $mappingname$start\n";  # this is for mpest
+	$start = $start +1;
+}
 
 #print "\ndone\n";
