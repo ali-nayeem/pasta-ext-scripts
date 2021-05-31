@@ -1,6 +1,7 @@
 .DS_Store
 *.pyc
 output/
+py-analysis/out/
 bin/
 config*
 eTree*
@@ -9,3 +10,4 @@ taxa*
 *.swp
 #data/
 .vscode/
+*.idea*

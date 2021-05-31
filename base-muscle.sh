@@ -1,19 +1,20 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-out_dir="5obj-15iter/base-muscle-output"
+out_dir="output/5obj-15iter/base-muscle-output"
 pasta_python="../venv/bin/python"
 pasta_run="/Users/ali_nayeem/PycharmProjects/pasta-extension/pasta/run_pasta.py"
 python2="/Users/ali_nayeem/PycharmProjects/sate-extension/venv/bin/python"
 getFpFn="/Users/ali_nayeem/Projects/PyTreePerf/getFpFn.py"
 resultFile="$out_dir/treePerf.txt"
-datasetList="BB11005 BB11018 BB11033 BB11020
-        BB12001 BB12013 BB12022 BB12035 BB12044
-        BB20001 BB20010 BB20022 BB20033 BB20041
-        BB30002 BB30008 BB30015 BB30022
-        BB40001 BB40013 BB40025 BB40038 BB40048
-        BB50001 BB50005 BB50010 BB50016"
+datasetList="BB11005 BB11018 BB11033 BB11020 BB12001 BB12013 BB12022 BB12035 BB12044  BB20001 BB20010 BB20022 BB20033 BB20041 BB30002"
+# "BB11005 BB11018 BB11033 BB11020
+#         BB12001 BB12013 BB12022 BB12035 BB12044
+#         BB20001 BB20010 BB20022 BB20033 BB20041
+#         BB30002 BB30008 BB30015 BB30022
+#         BB40001 BB40013 BB40025 BB40038 BB40048
+#         BB50001 BB50005 BB50010 BB50016"
 #for each data
-echo "Dataset, FP, FN, RF" > $resultFile
+#echo "Dataset, FP, FN, RF" > $resultFile
 for dataset in $datasetList
 do
   score_line="$dataset,"

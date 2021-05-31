@@ -1,0 +1,9 @@
+#!/bin/bash
+pasta_python="../venv/bin/python"
+pasta_run="/Users/ali_nayeem/PycharmProjects/pasta-extension/pasta/run_pasta.py"
+python2="/Users/ali_nayeem/PycharmProjects/sate-extension/venv/bin/python"
+getFpFn="/Users/ali_nayeem/Projects/PyTreePerf/getFpFn.py"
+bb_path="/Users/ali_nayeem/Projects/MSA/example"
+#muscle="/Users/ali_nayeem/NetBeansProjects/muscle_extesion/muscle"
+muscle_ext="/Users/ali_nayeem/NetBeansProjects/muscle_extesion/muscle"
+fasttree="/Users/ali_nayeem/NetBeansProjects/FastTree-old/FastTreeMP"
